@@ -1,0 +1,222 @@
+body{
+    background-color:black !important;
+    color:white
+}
+
+
+
+.user-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .user-info input,
+  .user-info textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-info button ,.edit-button {
+    width: 10rem;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-info button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  .profileimage{
+    height: rem;
+    width:7rem;
+    border-radius:10rem;
+padding:0.5rem;
+    border:4px solid violet
+  }
+
+
+  .Profile-container{
+    margin:2rem
+  }
+
+  .profimage{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .profimg{
+    background-color:#182531;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:1rem
+  }
+  .chip{
+
+   padding:0.4rem;
+   background-color:rgb(120, 120, 120);
+  gap:0.4rem;
+   width:6rem;
+   font-size:0.8rem;
+ 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+
+  .general{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:1rem;
+    
+  }
+
+ 
+  .chipheading,.general p,.general{
+     margin:0.1rem;
+    display:flex;
+     flex-direction: column;
+     gap:0.5rem; background-color:#44494e;
+     padding:0.5rem;
+
+  }
+  .chipheading,.general p{
+      background-color:#241f1f
+  }
+
+  .cat {
+    display:flex;
+    flex-direction:row;
+    gap:0.4rem
+  }
+
+
+
+  .user-info{
+    display:flex;
+    gap:1rem;
+    flex-wrap: wrap;
+
+  }
+
+
+  .left{
+    flex:5
+  }
+  .right{
+    flex:2
+  }
+
+
+  .ed1{
+    margin-bottom:1rem;
+    display:flex;
+    font-size:0.9rem;
+    flex-direction: column;
+    gap:0.2rem;
+    background-color:#182531;
+    padding:1rem;
+
+  }
+
+  .upper{
+    display:flex;
+    flex-direction: row;
+    gap:0.2rem;
+    justify-content: space-between;
+
+  }
+  .desc{
+    background-color:#241f1f;
+    color:rgb(247, 243, 243);
+    padding:0.6rem;
+    border:1px solid white
+
+  }
+  .links{
+    display:flex;
+     gap:0.3rem;
+     margin:0.4rem
+  }
+.l1{
+  background-color:#241f1f;
+  color:rgb(247, 243, 243);
+  padding:0.4rem;
+  border:1px solid white
+}
+
+
+
+
+
+.id{
+  background-color:#241f1f;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin:1rem;
+  padding:2rem;
+  border-radius:1rem
+}
+
+.name{
+  display:flex;
+  flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:5rem;
+  
+}
+
+.image img{
+  height:4rem;
+  width:4rem;
+  object-fit: cover;
+
+}
+.iddesc{
+  display:flex;
+  flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem
+}
+
+
+
+
+
+.followinfo{
+  display: flex;
+  
+   flex-direction: row;
+  
+}
+
+.id{
+  transform: scale(0.8);
+}
+
+.lefttotal,.righttotal{
+  background-color: #182531;
+  margin:1rem
+}
+
+.lefttotal{
+  height:fit-content
+}
